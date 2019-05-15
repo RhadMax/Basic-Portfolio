@@ -1,10 +1,12 @@
+body {
+}
 div {
     width: 960px;
     margin: 0 auto;
 }
 
 header {
-    
+    background-color: #ffffff;    
 }
 
 .mainHeader {
@@ -21,10 +23,24 @@ hr {
     clear: both;
 }
 
+.backImg {
+    height: 1000px;
+    width: 100%;
+    background-image: url("../images/full-bloom.png");
+}
+
 section {
+    border: 1px solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
     clear: both;
     width: 960px;
     margin: 0 auto;
+}
+
+.mainBody{
+    padding: 10px;
+    width: 930px;
 }
 
 .sectionHeaders {
