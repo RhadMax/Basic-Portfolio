@@ -7,28 +7,31 @@
     </head>
     <body>
         <header>
-            <h1>Max Patten-Weinstein</h1>
-            <nav>
+            <div>
+                <h1 class=mainHeader>Max Patten-Weinstein</h1>
+                <nav>
                 <a href="index.html">About</a>
                 <!--I'm assuming these links will need to be updated appropriately if I post the site as live on github pages or elsewhere? These are just relative file paths.-->
                 <a href="portfolio.html">Portfolio</a>
                 <a href="#">Contact</a>
-            </nav>
+                </nav>
+            </div>
         </header>
             <hr>
         <!--Unsure about this one as well but going to try a form tag within the div for now and see how it works out.. left divs the same on each html as they seem the same at high level-->
-        <div>
-            <h1>Contact</h1>
+        <section>
+            <h1 class=sectionHeaders>Contact</h1>
                 <hr>
             <form>
                 Name:<br>
-                <input placeholder="Your Name Here" type="text"><br>
+                <textarea placeholder="Your Name Here" rows="1" cols="133"></textarea><br>
                 Contact:<br>
-                <input placeholder="Your Contact Here" type="text"><br>
+                <textarea placeholder="Your Contact Here" rows="1" cols="133"></textarea><br>
                 Message:<br>
-                <textarea placeholder="Drop me a line here!" rows="10" cols="100"></textarea>
+                <textarea placeholder="Drop me a line here!" rows="10" cols="133"></textarea><br>
+                <input type="submit">                
             </form>
-        </div>
+        </section>
         <footer>Copyright ©</footer>
     </body>
 </html>
